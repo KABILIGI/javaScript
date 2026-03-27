@@ -28,33 +28,25 @@ AFTER<br>
 ### Task 2: Heading Toggle (DOM Selection)
 Interactive header that changes text content upon a button click using `document.getElementById()`.
 > **Key Concept:** Identifying elements and modifying `.textContent`.
-<br>
-BEFORE <br>
-![Console Output Screenshot](task2a.png)<br>
-AFTER<br>
-![Console Output Screenshot](task2b.png)
+
+![Heading Change Screenshot](task2a.png)
+
 ---
 
 ### Task 3: Event Listeners
 A minimalist interaction module that displays a "Success" message when a specific event is triggered.
 > **Key Concept:** Using `.addEventListener('click', ...)` for cleaner, modern code.
 
-<br>
-BEFORE <br>
-![Console Output Screenshot](task3a.png)<br>
-AFTER<br>
-![Console Output Screenshot](task3b.png)
+![Event Listener Screenshot](task3a.png)
+
 ---
 
 ### Task 4: Functional Calculator
 A real-world tool that processes user input (Strings to Floats) and performs simultaneous arithmetic operations (Addition, Subtraction, Multiplication, Division).
 > **Key Concept:** Data Type Conversion & Mathematical Operators.
 
-<br>
-BEFORE <br>
-![Console Output Screenshot](task4a.png)<br>
-AFTER<br>
-![Console Output Screenshot](task4b.png)
+![Calculator Screenshot](task4a.png)
+
 ---
 
 ### Task 5: Dynamic To-Do List (State Management)
@@ -63,11 +55,8 @@ The flagship task of this project. A fully functional task manager that allows u
 * ✅ **Complete** tasks using class toggling (Bonus).
 * 🗑️ **Remove** tasks using parent/child node manipulation.
 
-<br>
-BEFORE <br>
-![Console Output Screenshot](task5a.png)<br>
-AFTER<br>
-![Console Output Screenshot](task5b.png)
+![To-Do List Screenshot](task5a.png)
+
 ---
 
 ## How to Run Locally
