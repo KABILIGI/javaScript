@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Interaction Task</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-indigo-500 to-purple-600 min-h-screen flex items-center justify-center p-4">
+
+    <div class="bg-white/90 backdrop-blur-sm p-10 rounded-3xl shadow-2xl max-w-lg w-full text-center border border-white/20">
+        
+        <h1 id="main-heading" class="text-3xl font-extrabold text-gray-800 mb-8 transition-all duration-500">
+            Welcome to my website
+        </h1>
+
+        <p class="text-gray-600 mb-8">
+            Click the button below to see JavaScript manipulate the Document Object Model in real-time.
+        </p>
+
+        <button id="action-button" class="group relative inline-flex items-center justify-center px-8 py-3 font-bold text-white transition-all duration-200 bg-indigo-600 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600 hover:bg-indigo-700 shadow-lg">
+            Change Heading
+        </button>
+        
+    </div>
+
+    <script>
+        // 1. Select the elements using their IDs
+        const heading = document.getElementById('main-heading');
+        const button = document.getElementById('action-button');
+
+        // 2. Add an Event Listener to the button
+        button.addEventListener('click', function() {
+            // 3. Change the heading text
+            heading.textContent = "JavaScript is controlling this page!";
+            
+            // Optional: Change the color using Tailwind classes via JS
+            heading.classList.remove('text-gray-800');
+            heading.classList.add('text-indigo-600');
+            
+            // Optional: Update button text to show it worked
+            button.textContent = "Task Completed! ✅";
+            button.classList.replace('bg-indigo-600', 'bg-green-600');
+        });
+    </script>
+
+</body>
+</html>
