@@ -38,7 +38,7 @@ A minimalist interaction module that displays a "Success" message when a specifi
 > **Key Concept:** Using `.addEventListener('click', ...)` for cleaner, modern code.
 
 ![Event Listener Screenshot](task3a.png)
-![Event Listener Screenshot](task3a.png)
+![Event Listener Screenshot](task3b.png)
 ---
 
 ### Task 4: Functional Calculator
