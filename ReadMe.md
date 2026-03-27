@@ -30,7 +30,7 @@ Interactive header that changes text content upon a button click using `document
 > **Key Concept:** Identifying elements and modifying `.textContent`.
 
 ![Heading Change Screenshot](task2a.png)
-
+![Heading Change Screenshot](task2b.png)
 ---
 
 ### Task 3: Event Listeners
