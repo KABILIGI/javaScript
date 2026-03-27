@@ -18,10 +18,10 @@ This project is a collection of 5 developmental tasks designed to master the bri
 
 ### Task 1: Variable Declaration & Console Output
 The foundation of the project. This script handles data storage using `const` and `let` and outputs a personalized welcome message to the developer console.
-> **Key Concept:** Template Literals & Console Debugging.
-BEFORE
-![Console Output Screenshot](task1a.png)
-AFTER
+> **Key Concept:** Template Literals & Console Debugging.<br>
+BEFORE <br>
+![Console Output Screenshot](task1a.png)<br>
+AFTER<br>
 ![Console Output Screenshot](task1b.png)
 ---
 
