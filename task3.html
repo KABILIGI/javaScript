@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listener Task</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 min-h-screen flex items-center justify-center p-6">
+
+    <div class="bg-white border border-slate-200 p-10 rounded-2xl shadow-sm max-w-sm w-full text-center">
+        <h2 class="text-xl font-semibold text-slate-800 mb-6">my name is Denys click below to see yours</h2>
+        
+        <p id="message-display" class="text-slate-500 italic mb-8 min-h-[1.5rem]">
+            Waiting for action...
+        </p>
+
+        <button id="click-me-btn" class="w-full py-3 px-6 bg-slate-900 text-white rounded-lg font-medium hover:bg-slate-800 active:scale-95 transition-all">
+            Click Me
+        </button>
+    </div>
+
+    <script>
+        // 1. Select the elements
+        const displayPara = document.getElementById('message-display');
+        const actionBtn = document.getElementById('click-me-btn');
+
+        // 2. Use addEventListener to listen for the 'click' event
+        actionBtn.addEventListener('click', function() {
+            
+            // 3. Update the paragraph text
+            displayPara.textContent = "You clicked the button!";
+            
+            // Adding a little flair: Change the text color and weight
+            displayPara.classList.remove('text-slate-500', 'italic');
+            displayPara.classList.add('text-emerald-600', 'font-bold');
+            
+            // Console log for verification
+            console.log("Button click detected and handled.");
+        });
+    </script>
+
+</body>
+</html>
