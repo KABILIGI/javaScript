@@ -20,7 +20,7 @@ This project is a collection of 5 developmental tasks designed to master the bri
 The foundation of the project. This script handles data storage using `const` and `let` and outputs a personalized welcome message to the developer console.
 > **Key Concept:** Template Literals & Console Debugging.
 BEFORE
-![Console Output Screenshot](./[task1a.png])
+![Console Output Screenshot]([task1a.png])
 
 ---
 
