@@ -38,7 +38,7 @@ A minimalist interaction module that displays a "Success" message when a specifi
 > **Key Concept:** Using `.addEventListener('click', ...)` for cleaner, modern code.
 
 ![Event Listener Screenshot](task3a.png)
-
+![Event Listener Screenshot](task3a.png)
 ---
 
 ### Task 4: Functional Calculator
@@ -46,7 +46,7 @@ A real-world tool that processes user input (Strings to Floats) and performs sim
 > **Key Concept:** Data Type Conversion & Mathematical Operators.
 
 ![Calculator Screenshot](task4a.png)
-
+![Calculator Screenshot](task4b.png)
 ---
 
 ### Task 5: Dynamic To-Do List (State Management)
@@ -56,6 +56,7 @@ The flagship task of this project. A fully functional task manager that allows u
 * 🗑️ **Remove** tasks using parent/child node manipulation.
 
 ![To-Do List Screenshot](task5a.png)
+![To-Do List Screenshot](task5b.png)
 
 ---
 
